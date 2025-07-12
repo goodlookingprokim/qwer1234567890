@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>랜딩 페이지</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>브랜드명</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">홈</a></li>
+                    <li><a href="#about">소개</a></li>
+                    <li><a href="#services">서비스</a></li>
+                    <li><a href="#contact">연락처</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <h1 class="hero-title">혁신적인 솔루션으로<br>당신의 비즈니스를 변화시키세요</h1>
+                <p class="hero-description">최고의 서비스와 전문성으로 고객의 성공을 도와드립니다</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">시작하기</a>
+                    <a href="#about" class="btn btn-secondary">더 알아보기</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">우리에 대해</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>전문성과 혁신</h3>
+                        <p>우리는 고객의 요구사항을 이해하고 최적의 솔루션을 제공하는 것을 목표로 합니다. 다년간의 경험과 최신 기술을 바탕으로 신뢰할 수 있는 서비스를 제공합니다.</p>
+                        <ul>
+                            <li>10년 이상의 업계 경험</li>
+                            <li>100+ 성공 프로젝트</li>
+                            <li>24/7 고객 지원</li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        <div class="placeholder-image">이미지 영역</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">우리의 서비스</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🚀</div>
+                        <h3>웹 개발</h3>
+                        <p>현대적이고 반응형인 웹사이트와 웹 애플리케이션을 개발합니다.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📱</div>
+                        <h3>모바일 앱</h3>
+                        <p>iOS와 Android를 위한 네이티브 및 크로스플랫폼 모바일 애플리케이션을 제작합니다.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🎨</div>
+                        <h3>UI/UX 디자인</h3>
+                        <p>사용자 중심의 직관적이고 아름다운 인터페이스를 디자인합니다.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">☁️</div>
+                        <h3>클라우드 솔루션</h3>
+                        <p>확장 가능하고 안전한 클라우드 인프라와 서비스를 제공합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">연락하기</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>연락처 정보</h3>
+                        <div class="contact-item">
+                            <strong>이메일:</strong> contact@example.com
+                        </div>
+                        <div class="contact-item">
+                            <strong>전화:</strong> 02-1234-5678
+                        </div>
+                        <div class="contact-item">
+                            <strong>주소:</strong> 서울시 강남구 테헤란로 123
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">이름</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">이메일</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">메시지</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">메시지 보내기</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 브랜드명. 모든 권리 보유.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
